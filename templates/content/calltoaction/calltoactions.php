@@ -8,11 +8,11 @@
           </div>
         </div>
         <div class="col-lg-5 align-self-center">
-          <h6>Get the sale right now!</h6>
-          <h4>Up to 50% OFF For 1+ courses</h4>
-          <p>Kogi VHS freegan bicycle rights try-hard green juice probably haven't heard of them cliche la croix af chillwave.</p>
+          <h6>¡Aprovecha nuestra oferta en todo mayo 2023!</h6>
+          <h4>Opten el 20% en todos nuestros planes</h4>
+          <p>Aprovecha el 20% de descuentos en todos nuestros planes en todo mayo.</p>
           <div class="white-button">
-            <a href="contact-us.html">View Courses</a>
+            <a href="#contact-section">Contátenos</a>
           </div>
         </div>
       </div>

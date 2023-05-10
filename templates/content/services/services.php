@@ -5,8 +5,8 @@
       <div class="row">
         <div class="col-lg-12">
           <div class="section-heading">
-            <h6>Our Services</h6>
-            <h4>Provided <em>Services</em></h4>
+            <h6>Nuestros Servicios</h6>
+            <h4>somos <em>Especialistas</em></h4>
           </div>
         </div>
         <div class="col-lg-12">
@@ -14,109 +14,37 @@
             <div class="item">
               <div class="service-item">
                 <div class="icon">
-                  <img src="assets/images/service-icon-01.png" alt="">
+                    <img src="assets/images/service-icon-04.png" alt="desarrollo de imagen corporativa">
                 </div>
-                <h4>Useful Tricks</h4>
-                <p>EduWell is the professional HTML5 template for your school or university websites.</p>
-              </div>
+                <h4>Imagen corporativa</h4>
+                <p>Realizamos tu branding la personalidad de tu empresa.</p>
             </div>
-            <div class="item">
-              <div class="service-item">
+        </div>
+        <div class="item">
+            <div class="service-item">
                 <div class="icon">
-                  <img src="assets/images/service-icon-02.png" alt="">
+                    <img src="assets/img/diseno-web.png" alt="Desarrollo de páginas web y sistemas web">
                 </div>
-                <h4>Creative Ideas</h4>
-                <p>You can download and use this EduWell Template for your teaching and learning stuffs.</p>
-              </div>
+                <h4>Desarrollo de página web</h4>
+                <p>Somo especialistas en diseño de páginas web.</p>
             </div>
-            <div class="item">
-              <div class="service-item">
+        </div>
+        <div class="item">
+            <div class="service-item">
                 <div class="icon">
-                  <img src="assets/images/service-icon-03.png" alt="">
+                    <img src="assets/img/seo.png" alt="Posicionamiento de la página web en los buscadores">
                 </div>
-                <h4>Ready Target</h4>
-                <p>Please tell your friends about the best CSS template website that is TemplateMo.</p>
-              </div>
+                <h4>SEO</h4>
+                <p>Diseñamos páginas web preparadas para ser optimizadas para el posicionamiento.</p>
             </div>
-            <div class="item">
-              <div class="service-item">
+        </div>
+        <div class="item">
+            <div class="service-item">
                 <div class="icon">
-                  <img src="assets/images/service-icon-04.png" alt="">
+                    <img src="assets/img/elementos-graficos.png" alt="Desarrollo de logitpo para empresas">
                 </div>
-                <h4>Technology</h4>
-                <p>Aenean bibendum consectetur ex eu porttitor. Pellentesque id ultrices metus.</p>
-              </div>
-            </div>
-            <div class="item">
-              <div class="service-item">
-                <div class="icon">
-                  <img src="assets/images/service-icon-01.png" alt="">
-                </div>
-                <h4>Useful Tricks</h4>
-                <p>In non nisi eget magna efficitur ultricies non quis sapien. Pellentesque tellus.</p>
-              </div>
-            </div>
-            <div class="item">
-              <div class="service-item">
-                <div class="icon">
-                  <img src="assets/images/service-icon-02.png" alt="">
-                </div>
-                <h4>Creative Ideas</h4>
-                <p>Aenean bibendum consectetur ex eu porttitor. Pellentesque id ultrices metus.</p>
-              </div>
-            </div>
-            <div class="item">
-              <div class="service-item">
-                <div class="icon">
-                  <img src="assets/images/service-icon-03.png" alt="">
-                </div>
-                <h4>Ready Target</h4>
-                <p>In non nisi eget magna efficitur ultricies non quis sapien. Pellentesque tellus.</p>
-              </div>
-            </div>
-            <div class="item">
-              <div class="service-item">
-                <div class="icon">
-                  <img src="assets/images/service-icon-04.png" alt="">
-                </div>
-                <h4>Technology</h4>
-                <p>Aenean bibendum consectetur ex eu porttitor. Pellentesque id ultrices metus.</p>
-              </div>
-            </div>
-            <div class="item">
-              <div class="service-item">
-                <div class="icon">
-                  <img src="assets/images/service-icon-01.png" alt="">
-                </div>
-                <h4>Useful Tricks</h4>
-                <p>In non nisi eget magna efficitur ultricies non quis sapien. Pellentesque tellus.</p>
-              </div>
-            </div>
-            <div class="item">
-              <div class="service-item">
-                <div class="icon">
-                  <img src="assets/images/service-icon-02.png" alt="">
-                </div>
-                <h4>Creative Ideas</h4>
-                <p>Aenean bibendum consectetur ex eu porttitor. Pellentesque id ultrices metus.</p>
-              </div>
-            </div>
-            <div class="item">
-              <div class="service-item">
-                <div class="icon">
-                  <img src="assets/images/service-icon-03.png" alt="">
-                </div>
-                <h4>Ready Target</h4>
-                <p>In non nisi eget magna efficitur ultricies non quis sapien. Pellentesque tellus.</p>
-              </div>
-            </div>
-            <div class="item">
-              <div class="service-item">
-                <div class="icon">
-                  <img src="assets/images/service-icon-04.png" alt="">
-                </div>
-                <h4>Technology</h4>
-                <p>Praesent accumsan condimentum arcu, id porttitor est semper nec. Nunc diam lorem.</p>
+                <h4>Diseño de logo</h4>
+                <p>Un buen logo ayuda a que tu empresa se posicione bien en medio del mercado.</p>
               </div>
             </div>
           </div>

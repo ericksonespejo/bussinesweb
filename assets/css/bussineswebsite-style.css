@@ -239,7 +239,7 @@ header
 */
 .background-header {
   background: rgb(250, 246, 250) !important;
-  background: linear-gradient(-145deg, rgb(57, 111, 199) 0%, rgb(244, 244, 244) 100%) !important;
+  background: linear-gradient(-145deg, rgb(10, 51, 133) 30%, rgb(244, 244, 244) 100%) !important;
   height: 80px!important;
   position: fixed!important;
   top: 0!important;

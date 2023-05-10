@@ -6,25 +6,17 @@
               <div class="col-12">
                   <nav class="main-nav">
                       <!-- ***** Logo Start ***** -->
-                      <a href="index.html" class="logo">
-                          <img src="assets/images/templatemo-eduwell.png" alt="EduWell Template">
+                      <a href="index.php" class="logo">
+                          <img src="assets/images/logo.png" alt="Desarrollo de página webs, sistemas web, gestion de contenidos">
                       </a>
                       <!-- ***** Logo End ***** -->
                       <!-- ***** Menu Start ***** -->
                       <ul class="nav">
-                          <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
-                          <li class="scroll-to-section"><a href="#services">Services</a></li>
-                          <li class="scroll-to-section"><a href="#courses">Courses</a></li>
-                          <li class="has-sub">
-                              <a href="javascript:void(0)">Pages</a>
-                              <ul class="sub-menu">
-                                  <li><a href="about-us.html">About Us</a></li>
-                                  <li><a href="our-services.html">Our Services</a></li>
-                                  <li><a href="contact-us.html">Contact Us</a></li>
-                              </ul>
-                          </li>
-                          <li class="scroll-to-section"><a href="#testimonials">Testimonials</a></li> 
-                          <li class="scroll-to-section"><a href="#contact-section">Contact Us</a></li> 
+                          <li class="scroll-to-section"><a href="#top" class="active">Inicio</a></li>
+                          <li class="scroll-to-section"><a href="#services">Servicios</a></li>
+                          <li class="scroll-to-section"><a href="#courses">Planes</a></li>
+                          <li class="scroll-to-section"><a href="#testimonials">Testimonios</a></li> 
+                          <li class="scroll-to-section"><a href="#contact-section">Contáctenos</a></li> 
                       </ul>        
                       <a class='menu-trigger'>
                           <span>Menu</span>

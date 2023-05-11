@@ -1,3 +1,12 @@
+<?php 
+if (isset($_POST['submit'])) {
+  $nombre = $_POST['name'];
+  $email = $_POST['email'];
+  $mensaje = $_POST['message'];
+}
+
+
+?>
 <section class="contact-us" id="contact-section">
     <div class="container">
       <div class="row">
@@ -50,7 +59,7 @@
               </div>
               <div class="col-lg-12">
                 <fieldset>
-                  <textarea name="message" id="message" placeholder="Tu mensaje"></textarea>
+                  <textarea name="message" id="message" placeholder="Tu mensaje" required=""></textarea>
                 </fieldset>
               </div>
               <div class="col-lg-12">
@@ -60,6 +69,7 @@
               </div>
             </div>
           </form>
+          <?php include_once 'processSend.php' ;?>
         </div>
         <!--<div class="col-lg-12">
           <ul class="social-icons">

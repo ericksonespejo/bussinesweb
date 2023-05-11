@@ -16,7 +16,7 @@ if (!empty($name) && !empty($email) && !empty($mensaje)) {
     
 }
 $headers = "FROM: ventas@bussineswebsite.com\r\n";
-$headers .= "Reply-To: $from\r\n";
+$headers .= "Reply-To: $email\r\n";
 $headers .= "MIME-Version: 1.0\r\n" ;
 $headers .= "Content-Type: text/html; charset=utf-8\r\n"; 
 if(mail($nombre, $email, $mensaje,$headers)){

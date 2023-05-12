@@ -3,6 +3,7 @@ if (isset($_POST['submit'])) {
   $nombre = $_POST['name'];
   $email = $_POST['email'];
   $mensaje = $_POST['message'];
+  $nombre=trim($nombre, ' ');
 }
 
 
@@ -38,7 +39,7 @@ if (isset($_POST['submit'])) {
           </div>
         </div>
         <div class="col-lg-4">
-          <form id="contact" action="" method="post">
+          <form id="contact" action="<?php htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post">
             <div class="row">
               <div class="col-lg-12">
                 <div class="section-heading">
@@ -49,22 +50,22 @@ if (isset($_POST['submit'])) {
               </div>
               <div class="col-lg-12">
                 <fieldset>
-                  <input type="name" name="name" id="name" placeholder="Nombre completo" autocomplete="on" required>
+                  <input type="name" name="name" id="name" placeholder="Nombre completo" autocomplete="on" required value="<?php if(isset($nombre)) echo htmlspecialchars($nombre) ;?>">
                 </fieldset>
               </div>
               <div class="col-lg-12">
                 <fieldset>
-                  <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Tu correo electrónico" required="">
+                  <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Tu correo electrónico" required value="<?php if(isset($email)) echo $email;?>">
                 </fieldset>
               </div>
               <div class="col-lg-12">
                 <fieldset>
-                  <textarea name="message" id="message" placeholder="Tu mensaje" required=""></textarea>
+                  <textarea name="message" id="message" placeholder="Tu mensaje" required value="<?php if(isset($mensaje)) echo htmlspecialchars( $mensaje) ;?>"></textarea>
                 </fieldset>
               </div>
               <div class="col-lg-12">
                 <fieldset>
-                  <button type="submit" id="form-submit" class="main-gradient-button">Enviar mensaje</button>
+                  <button type="submit" name="submit" id="form-submit" class="main-gradient-button">Enviar mensaje</button>
                 </fieldset>
               </div>
             </div>

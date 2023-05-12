@@ -20,7 +20,7 @@ if (isset($_POST['submit'])) {
     $headers .= "MIME-Version: 1.0\r\n";
     $headers .= "Content-Type: text/html; charset=utf-8\r\n";
     if(mail($to,$nombre,$email,$mensaje)){
-        echo "mail enviado";
+        echo "<span class='alert alert-success mt-2'>mail enviado</span>";
         }else{
         $errorMessage = error_get_last()['msg'];
         echo $errorMessage;
